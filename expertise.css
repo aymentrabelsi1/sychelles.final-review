@@ -1,0 +1,220 @@
+
+body{background-color: rgba(0, 0, 0, 0.045);
+
+}
+
+
+#security-and-consultancy{
+  
+    gap: 10px;
+
+  }
+  
+  #h1-expertise-top-line{
+    background:linear-gradient(to right, rgb(85, 5, 122) ,rgb(5, 184, 172));
+    width: fit-content;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+
+    cursor: pointer;
+    margin:12% auto 0% ;text-align: center;}
+
+    #h1-expertise-top-line:hover{
+
+        background:linear-gradient(to right, rgb(5, 184, 172) ,rgb(85, 5, 122));
+   
+    }
+  
+  
+      #security-and-consultancy div{
+        margin: 20px 4px;
+        padding: 20px;
+        
+      color: rgba(255, 255, 255, 0.827);
+  
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.497);
+  border-radius: 6px;
+ background:  linear-gradient(to right , rgb(3, 141, 132) 0%, rgba(48, 46, 218, 0.83) 98%);
+  line-height: 1.6;
+      }
+  
+      #security-and-consultancy div:hover{
+        
+        background: rgba(188, 188, 188, 0.407);
+        cursor: pointer;
+        box-shadow: 4px 4px 6px rgb(80, 83, 255);
+        color: black;
+      }
+  
+  
+  
+  
+      #introduction-expertise{
+          padding: 4rem;
+          font-size: 1.4rem;
+          font-weight: 500;
+         
+          max-width: 85%;
+          border-radius: 10px;
+          margin: 3rem auto;
+          cursor: pointer;
+   
+          background-color: rgb(241, 241, 241);
+   color: black;
+   
+   box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.497);
+    }
+  
+
+    #introduction-expertise:hover{
+
+        
+    box-shadow: 8px 8px 10px rgba(30, 0, 255, 0.497);
+   
+    }
+
+  
+  #h-6{width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 88%;
+    font-size: 1rem;
+    border-radius: 8px;
+   color: aliceblue;
+   border: 3px solid black;
+    background:linear-gradient(to right, rgb(85, 5, 122) ,rgb(5, 184, 172));
+}
+  
+  
+  
+  
+  
+  
+  
+  
+      #last-div-box{
+        display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.4rem;
+      padding:2rem 4rem;
+      padding-bottom: 50px;
+      margin: 4rem 0rem;
+      background-color: rgba(234, 234, 234, 0.797);
+    }
+  
+  
+      #last-div-box div{
+        
+        
+
+        background: linear-gradient(90deg, rgba(65,0,255,1) 7%, rgb(93, 110, 245) 100%);
+  
+        color: white;
+  border-radius: 8px;
+  
+  
+  text-align: center;
+      width: 10rem;
+    height:10rem;  
+  
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 1;
+      box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.497);
+    }
+  
+  
+    #last-div-box div:hover{
+      color:black;
+      cursor: pointer;
+      
+      background: rgba(255, 255, 255, 0.407);
+      box-shadow: 4px 4px 6px rgba(0, 0, 255, 0.497);
+    
+      
+    }
+  
+
+
+    
+  
+
+
+    #our-expertise-section{padding:0rem 2rem;}
+
+
+
+    @media (min-width:1000px){
+        #security-and-consultancy{display: flex;}
+
+    }
+    @media (min-width:250px) and (max-width:400px)  {
+        #security-and-consultancy{margin-top: 2rem;padding: 0;}
+        #text-media p{font-size: 0.8rem;}
+        #text-media h2{font-size: 1rem;}
+        #text-media h4{font-size: 1rem;}
+        #h1-expertise-top-line{margin-top: 14rem;
+            font-weight: 400;
+            font-size: 1.6rem;}
+        #our-expertise-section{padding: 0rem 0rem;}
+        #security-and-consultancy div{padding: 10px;}
+        #introduction-expertise{padding: 10px;font-size: 0.8rem;
+        max-width: 90%;
+        }
+        
+        #h-6{font-size: 0.8rem;font-weight: 400;}
+
+
+        #last-div-box{padding: 2rem 0.6rem;}
+
+        #last-div-box div{width: 6rem;font-size: 12px;
+            
+            padding: 0;}
+    }
+    
+    @media (min-width:401px) and (max-width:800px)  {
+        #h1-expertise-top-line{margin-top: 10.2rem;font-weight: 400;font-size: 1.6rem;}
+        #security-and-consultancy{margin-top: 2rem;padding: 0;}
+        #text-media p{font-size: 0.8rem;}
+        #text-media h2{font-size: 1rem;}
+        #text-media h4{font-size: 1rem;}
+        #our-expertise-section{padding: 0rem 0rem;}
+        #security-and-consultancy div{padding: 10px;}
+        #introduction-expertise{padding: 10px;font-size: 0.8rem;
+        max-width: 90%;
+        }
+        
+        #h-6{font-size: 0.8rem;font-weight: 400;}
+
+
+        #last-div-box{padding: 1rem 0.6rem;}
+    }
+    @media (min-width:801px) and (max-width:1000px)  {
+        #h1-expertise-top-line{margin-top: 10.2rem;font-weight: 400;font-size: 1.6rem;}
+        #security-and-consultancy{margin-top: 2rem;padding: 0;}
+        #text-media p{font-size: 0.8rem;}
+        #text-media h2{font-size: 1rem;}
+        #text-media h4{font-size: 1rem;}
+        #our-expertise-section{padding: 0rem 0rem;}
+        #security-and-consultancy div{padding: 10px;}
+        #introduction-expertise{padding: 10px;font-size: 0.8rem;
+        max-width: 90%;
+        }
+        
+        #h-6{font-size: 0.8rem;font-weight: 400;}
+
+
+        #last-div-box{padding: 1rem 0.6rem;}
+    }
+    
+
+
+
+
+
+
